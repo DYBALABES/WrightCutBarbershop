@@ -12,7 +12,6 @@
         android:orientation="vertical"
         android:paddingBottom="32dp">
 
-        <!-- Header -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +37,6 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <!-- Navigation Pills (Includes Admin Panel for managers) -->
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -93,7 +91,7 @@
                     android:background="@drawable/shape_dark_card"
                     android:gravity="center"
                     android:paddingHorizontal="16dp"
-                    android:text="Book Appointment"
+                    android:text="Book"
                     android:textColor="@color/text_white" />
 
                 <TextView
@@ -106,6 +104,18 @@
                     android:paddingHorizontal="16dp"
                     android:text="About Barbers"
                     android:textColor="@color/text_white" />
+
+                <TextView
+                    android:id="@+id/pillLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/shape_dark_card"
+                    android:gravity="center"
+                    android:paddingHorizontal="14dp"
+                    android:text="🌐 Language"
+                    android:textColor="@color/gold_primary"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/pillAdmin"
@@ -145,7 +155,7 @@
             </LinearLayout>
         </HorizontalScrollView>
 
-
+        <!-- Hero Card -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

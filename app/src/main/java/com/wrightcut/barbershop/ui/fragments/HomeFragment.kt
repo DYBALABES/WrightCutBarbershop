@@ -14,6 +14,7 @@ import com.wrightcut.barbershop.databinding.FragmentHomeBinding
 import com.wrightcut.barbershop.ui.activities.AdminAppointmentsActivity
 import com.wrightcut.barbershop.ui.activities.BookAppointmentActivity
 import com.wrightcut.barbershop.ui.activities.LoginActivity
+import com.wrightcut.barbershop.utils.LanguageUtil
 import com.wrightcut.barbershop.utils.SessionManager
 
 class HomeFragment : Fragment() {
@@ -30,7 +31,17 @@ class HomeFragment : Fragment() {
 
         setupDynamicUserInitials()
 
-        // Admin Panel
+        // Language Selector: opens dialog to switch language live
+        binding.pillLanguage.setOnClickListener {
+            LanguageUtil.showLanguageDialog(requireContext())
+        }
+
+        // Tapping the avatar circle also opens language settings
+        binding.tvUserInitials.setOnClickListener {
+            LanguageUtil.showLanguageDialog(requireContext())
+        }
+
+        // Admin Panel visibility
         if (SessionManager.isAdmin(requireContext())) {
             binding.pillAdmin.visibility = View.VISIBLE
             binding.pillAdmin.setOnClickListener {

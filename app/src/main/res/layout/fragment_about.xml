@@ -12,6 +12,7 @@
         android:orientation="vertical"
         android:paddingBottom="32dp">
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -90,7 +91,7 @@
                     android:background="@drawable/shape_dark_card"
                     android:gravity="center"
                     android:paddingHorizontal="16dp"
-                    android:text="Book Appointment"
+                    android:text="Book"
                     android:textColor="@color/text_white" />
 
                 <TextView
@@ -105,6 +106,18 @@
                     android:textColor="@color/bg_dark"
                     android:textStyle="bold" />
 
+                <!-- Language-->
+                <TextView
+                    android:id="@+id/pillLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/shape_dark_card"
+                    android:gravity="center"
+                    android:paddingHorizontal="14dp"
+                    android:text="🌐 Language"
+                    android:textColor="@color/gold_primary"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tvUserInitials"
@@ -118,7 +131,6 @@
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
-                <!-- Sign Out-->
                 <TextView
                     android:id="@+id/pillSignOut"
                     android:layout_width="wrap_content"
@@ -132,7 +144,7 @@
             </LinearLayout>
         </HorizontalScrollView>
 
-        <!-- OUR STORY -->
+        <!-- Card 1: OUR STORY -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -184,7 +196,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!--FIND US ON GPS -->
+        <!-- Card 2 GPS -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -216,7 +228,6 @@
                     android:text="📍 932 Monato Street, Ga-Rankuwa View, Zone 15, 0208, Gauteng"
                     android:textColor="@color/text_white"
                     android:textSize="14sp" />
-
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -250,7 +261,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <!-- Google Maps -->
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btnOpenMaps"
                     android:layout_width="match_parent"

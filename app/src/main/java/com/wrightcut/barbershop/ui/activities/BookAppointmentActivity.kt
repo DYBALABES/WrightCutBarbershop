@@ -14,6 +14,7 @@ import com.wrightcut.barbershop.MainActivity
 import com.wrightcut.barbershop.R
 import com.wrightcut.barbershop.data.local.DatabaseHelper
 import com.wrightcut.barbershop.databinding.ActivityBookAppointmentBinding
+import com.wrightcut.barbershop.utils.LanguageUtil
 import com.wrightcut.barbershop.utils.SessionManager
 import java.util.Calendar
 
@@ -40,19 +41,12 @@ class BookAppointmentActivity : AppCompatActivity() {
 
         setupDynamicUserInitials()
 
-        // Admin Panel navigation
-        if (SessionManager.isAdmin(this)) {
-            binding.pillAbout.text = "Admin Panel"
-            binding.pillAbout.setOnClickListener {
-                startActivity(Intent(this, AdminAppointmentsActivity::class.java))
-                finish()
-            }
-        } else {
-            binding.pillAbout.setOnClickListener {
-                val intent = Intent(this, MainActivity::class.java).apply { putExtra("OPEN_TAB", "ABOUT") }
-                startActivity(intent)
-                finish()
-            }
+        binding.pillLanguage.setOnClickListener {
+            LanguageUtil.showLanguageDialog(this)
+        }
+
+        binding.tvUserInitials.setOnClickListener {
+            LanguageUtil.showLanguageDialog(this)
         }
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, servicesList)
@@ -120,6 +114,11 @@ class BookAppointmentActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        binding.pillAbout.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java).apply { putExtra("OPEN_TAB", "ABOUT") }
+            startActivity(intent)
+            finish()
+        }
         binding.pillSignOut.setOnClickListener {
             SessionManager.clearSession(this)
             try { FirebaseAuth.getInstance().signOut() } catch (e: Exception) {}
@@ -129,7 +128,6 @@ class BookAppointmentActivity : AppCompatActivity() {
             finish()
         }
 
-        // Confirm & Submit
         binding.btnConfirmSubmit.setOnClickListener {
             var custEmail = binding.etCustomerEmail.text.toString().trim()
             if (custEmail.isEmpty()) custEmail = SessionManager.getUserEmail(this).ifBlank { "client@wrightcut.co.za" }
@@ -143,7 +141,7 @@ class BookAppointmentActivity : AppCompatActivity() {
             if (date.isEmpty()) date = "2026-10-24"
 
             val db = DatabaseHelper(this)
-            val newId = db.insertBooking(custEmail, phone, service, date, selectedTimeSlot, "Pending")
+            db.insertBooking(custEmail, phone, service, date, selectedTimeSlot, "Pending")
 
             try {
                 val firestoreMap = hashMapOf(

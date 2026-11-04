@@ -12,7 +12,6 @@
         android:orientation="vertical"
         android:paddingBottom="32dp">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,7 +50,6 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <!-- Home  -->
                 <TextView
                     android:id="@+id/pillHome"
                     android:layout_width="wrap_content"
@@ -62,7 +60,6 @@
                     android:text="Home"
                     android:textColor="@color/text_white" />
 
-                <!--Services & Prices -->
                 <TextView
                     android:id="@+id/pillServices"
                     android:layout_width="wrap_content"
@@ -75,7 +72,6 @@
                     android:textColor="@color/bg_dark"
                     android:textStyle="bold" />
 
-                <!-- Gallery -->
                 <TextView
                     android:id="@+id/pillGallery"
                     android:layout_width="wrap_content"
@@ -87,7 +83,6 @@
                     android:text="Gallery"
                     android:textColor="@color/text_white" />
 
-                <!-- Book Appointment-->
                 <TextView
                     android:id="@+id/pillBook"
                     android:layout_width="wrap_content"
@@ -96,10 +91,9 @@
                     android:background="@drawable/shape_dark_card"
                     android:gravity="center"
                     android:paddingHorizontal="16dp"
-                    android:text="Book Appointment"
+                    android:text="Book"
                     android:textColor="@color/text_white" />
 
-                <!-- About Barbers-->
                 <TextView
                     android:id="@+id/pillAbout"
                     android:layout_width="wrap_content"
@@ -110,6 +104,18 @@
                     android:paddingHorizontal="16dp"
                     android:text="About Barbers"
                     android:textColor="@color/text_white" />
+
+                <TextView
+                    android:id="@+id/pillLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/shape_dark_card"
+                    android:gravity="center"
+                    android:paddingHorizontal="14dp"
+                    android:text="🌐 Language"
+                    android:textColor="@color/gold_primary"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tvUserInitials"
@@ -123,7 +129,6 @@
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
-                <!-- Sign Out-->
                 <TextView
                     android:id="@+id/pillSignOut"
                     android:layout_width="wrap_content"
@@ -170,7 +175,6 @@
                     android:textColor="@color/text_muted"
                     android:textSize="14sp" />
 
-                <!-- Price List  Image -->
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -188,7 +192,6 @@
                         android:contentDescription="Official Price List" />
                 </androidx.cardview.widget.CardView>
 
-                <!-- BookButton -->
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btnProceedToBook"
                     android:layout_width="match_parent"
