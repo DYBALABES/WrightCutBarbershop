@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="750dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="14dp"
+    android:paddingHorizontal="16dp"
+    android:background="@drawable/shape_dark_card"
+    android:layout_marginBottom="8dp">
+
+    <!--  Client Email -->
+    <TextView
+        android:id="@+id/tvAdminClientEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.2"
+        android:text="zamaluleka06@gmail.com"
+        android:textColor="@color/text_white"
+        android:textSize="13sp" />
+
+    <!-- Client Phone -->
+    <TextView
+        android:id="@+id/tvAdminClientPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.6"
+        android:text="0605700719"
+        android:textColor="@color/text_white"
+        android:textStyle="bold"
+        android:textSize="13sp" />
+
+    <!-- Service -->
+    <TextView
+        android:id="@+id/tvAdminService"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:text="Chiskop with Blade (R70)"
+        android:textColor="@color/text_white"
+        android:textSize="13sp" />
+
+    <!-- Date & Time -->
+    <TextView
+        android:id="@+id/tvAdminDateTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.0"
+        android:text="2026-10-22 @ 09:00 AM"
+        android:textColor="@color/text_white"
+        android:textSize="13sp" />
+
+    <!-- Status Badge-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvAdminStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_status_badge"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:text="Accepted"
+            android:textColor="@color/success_green"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Menu -->
+    <TextView
+        android:id="@+id/btnAdminActions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="⋮"
+        android:textColor="@color/text_muted"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

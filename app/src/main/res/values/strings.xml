@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wright Cut Barbershop</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="login_subtitle">Log in to book your next cut</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="google_sso">Continue with Google (SSO)</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Log In</string>
+    <string name="ready_for_cut">READY FOR A FRESH CUT?</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="walk_in_wait">Live Wait Time (REST API)</string>
+    <string name="loyalty_streak">Loyalty streak</string>
+    <string name="popular_services">Popular services</string>
+    <string name="meet_barbers">Meet the barbers</string>
+    <string name="services_prices">Services &amp; Prices</string>
+    <string name="style_gallery">Style Gallery</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="settings">Settings</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="logout">Log Out</string>
+    <string name="select_language">Select Language</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wright Cut Barbershop</string>
+    <string name="welcome_back">Siyakwamukela futhi</string>
+    <string name="login_subtitle">Ngena ngemvume ukubhuka ukugunda</string>
+    <string name="email">I-imeyili</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="full_name">Igama Eliphelele</string>
+    <string name="phone">Inombolo Yocingo</string>
+    <string name="login">Ngena</string>
+    <string name="register">Bhalisa</string>
+    <string name="create_account">Dala I-akhawunti</string>
+    <string name="google_sso">Qhubeka nge-Google (SSO)</string>
+    <string name="dont_have_account">Awunayo i-akhawunti? Bhalisa</string>
+    <string name="already_have_account">Ingabe unayo i-akhawunti? Ngena</string>
+    <string name="ready_for_cut">ULUNGELE UKUGUNDA?</string>
+    <string name="book_now">BHUKHA MANJE</string>
+    <string name="walk_in_wait">Isikhathi Sokulinda (REST API)</string>
+    <string name="loyalty_streak">Ukugunda kokuthembeka</string>
+    <string name="popular_services">Izinsizakalo ezidumile</string>
+    <string name="meet_barbers">Hlangana nabagundi</string>
+    <string name="services_prices">Izinsizakalo &amp; Amanani</string>
+    <string name="style_gallery">Igalari Yezitayela</string>
+    <string name="my_bookings">Ukubhuka Kwami</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="reschedule">Hlehlisa Isikhathi</string>
+    <string name="cancel">Khansela</string>
+    <string name="confirm_booking">Qinisekisa Ukubhuka</string>
+    <string name="logout">Phuma</string>
+    <string name="select_language">Khetha Ulimi</string>
+</resources>

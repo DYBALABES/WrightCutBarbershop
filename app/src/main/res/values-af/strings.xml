@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wright Cut Barbershop</string>
+    <string name="welcome_back">Welkom terug</string>
+    <string name="login_subtitle">Teken in om jou volgende haarsny te bespreek</string>
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="full_name">Volle Naam</string>
+    <string name="phone">Telefoonnommer</string>
+    <string name="login">Teken In</string>
+    <string name="register">Registreer</string>
+    <string name="create_account">Skep Rekening</string>
+    <string name="google_sso">Gaan voort met Google (SSO)</string>
+    <string name="dont_have_account">Het jy nie \'n rekening nie? Registreer</string>
+    <string name="already_have_account">Het reeds \'n rekening? Teken In</string>
+    <string name="ready_for_cut">REG VIR \'N VARS HAARSNY?</string>
+    <string name="book_now">BESPREEK NOU</string>
+    <string name="walk_in_wait">Regstreekse Wagtyd (REST API)</string>
+    <string name="loyalty_streak">Lojaliteitsreeks</string>
+    <string name="popular_services">Gewilde dienste</string>
+    <string name="meet_barbers">Ontmoet die haarkappers</string>
+    <string name="services_prices">Dienste &amp; Pryse</string>
+    <string name="style_gallery">Stylgalery</string>
+    <string name="my_bookings">My Besprekings</string>
+    <string name="settings">Instellings</string>
+    <string name="reschedule">Herskik</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="confirm_booking">Bevestig Bespreking</string>
+    <string name="logout">Teken Uit</string>
+    <string name="select_language">Kies Taal</string>
+</resources>

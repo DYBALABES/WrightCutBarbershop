@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wright Cut Barbershop</string>
+    <string name="welcome_back">Re a o amohela hape</string>
+    <string name="login_subtitle">Kena ho kuta moriri wa hao</string>
+    <string name="email">Imeile</string>
+    <string name="password">Phasewete</string>
+    <string name="full_name">Lebitso ka botlalo</string>
+    <string name="phone">Nomoro ya mohala</string>
+    <string name="login">Kena</string>
+    <string name="register">Ingodise</string>
+    <string name="create_account">Bopa Akhaonto</string>
+    <string name="google_sso">Tswela pele ka Google (SSO)</string>
+    <string name="dont_have_account">Ha o na akhaonto? Ingodise</string>
+    <string name="already_have_account">O se o na le akhaonto? Kena</string>
+    <string name="ready_for_cut">O LOKETSE HO KUTA?</string>
+    <string name="book_now">BEHELA NAKO JWALE</string>
+    <string name="walk_in_wait">Nako ya ho Ema (REST API)</string>
+    <string name="loyalty_streak">Dintlha tsa boikemisetso</string>
+    <string name="popular_services">Ditshebeletso tse tummeng</string>
+    <string name="meet_barbers">Kopana le bakuti</string>
+    <string name="services_prices">Ditshebeletso le Ditheko</string>
+    <string name="style_gallery">Galari ya Mefuta</string>
+    <string name="my_bookings">Dipehelo tsa ka</string>
+    <string name="settings">Dipehelo</string>
+    <string name="reschedule">Fetola Nako</string>
+    <string name="cancel">Hlakola</string>
+    <string name="confirm_booking">Netefatsa Pehelo</string>
+    <string name="logout">Tswa Akhaontong</string>
+    <string name="select_language">Kgetha Puo</string>
+</resources>
