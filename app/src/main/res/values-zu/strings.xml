@@ -1,31 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Wright Cut Barbershop</string>
+    <string name="brand_header">WRIGHT CUT</string>
+
     <string name="welcome_back">Siyakwamukela futhi</string>
     <string name="login_subtitle">Ngena ngemvume ukubhuka ukugunda</string>
     <string name="email">I-imeyili</string>
     <string name="password">Iphasiwedi</string>
-    <string name="full_name">Igama Eliphelele</string>
-    <string name="phone">Inombolo Yocingo</string>
     <string name="login">Ngena</string>
     <string name="register">Bhalisa</string>
     <string name="create_account">Dala I-akhawunti</string>
+    <string name="full_name">Igama Eliphelele</string>
+    <string name="phone">Inombolo Yocingo</string>
     <string name="google_sso">Qhubeka nge-Google (SSO)</string>
     <string name="dont_have_account">Awunayo i-akhawunti? Bhalisa</string>
     <string name="already_have_account">Ingabe unayo i-akhawunti? Ngena</string>
-    <string name="ready_for_cut">ULUNGELE UKUGUNDA?</string>
-    <string name="book_now">BHUKHA MANJE</string>
-    <string name="walk_in_wait">Isikhathi Sokulinda (REST API)</string>
-    <string name="loyalty_streak">Ukugunda kokuthembeka</string>
-    <string name="popular_services">Izinsizakalo ezidumile</string>
-    <string name="meet_barbers">Hlangana nabagundi</string>
-    <string name="services_prices">Izinsizakalo &amp; Amanani</string>
-    <string name="style_gallery">Igalari Yezitayela</string>
-    <string name="my_bookings">Ukubhuka Kwami</string>
-    <string name="settings">Izilungiselelo</string>
+
+    <string name="menu_settings">Izilungiselelo / Ulimi (🌐)</string>
+    <string name="menu_sign_out">Phuma</string>
+
+    <string name="nav_home">Ikhaya</string>
+    <string name="nav_services">Izinsizakalo &amp; Amanani</string>
+    <string name="nav_gallery">Igalari</string>
+    <string name="nav_book">Bhukha</string>
+    <string name="nav_about">Abagundi</string>
+    <string name="nav_admin">Umlawuli</string>
+    <string name="nav_sign_out">Phuma</string>
+
+    <!-- Home Screen -->
+    <string name="refining_style">UKULUNGISISA ISITAYELA SAKHO</string>
+    <string name="style_quote">"Isitayela sakho sichaza wena. Sisicwengisa kuphela. Uma ubukeka kahle, sibukeka kahle."</string>
+    <string name="btn_book_session">Bhukha Isikhathi Sokugunda</string>
+    <string name="location_hours_title">INDAWO NEZIKHATHI ZOKUSEBENZA</string>
+    <string name="shop_address">📍 Ikheli: 932 Monato Street, Ga-Rankuwa View, Zone 15, 0208</string>
+    <string name="hours_mon_fri">🕒 Msombuluko - Lwesihlanu: 7:30 AM – 6:30 PM</string>
+    <string name="hours_sat">🕒 Mgqibelo: 7:00 AM – 7:00 PM</string>
+    <string name="live_queue_wait">Isikhathi Sokulinda: ~15 min</string>
+
+    <!-- Services Screen -->
+    <string name="official_price_title">UHLU LWAMANANI OLUSEMTHETHWENI</string>
+    <string name="official_price_subtitle">Amanani aqinisekisiwe okugunda, idayi nokunquma.</string>
+    <string name="btn_proceed_book">Qhubeka Ukubhukha</string>
+
+    <!-- Gallery Screen -->
+    <string name="our_work_title">Umsebenzi Wethu</string>
+    <string name="btn_book_now">Bhukha Manje</string>
+
+    <!-- About Screen -->
+    <string name="our_story_title">INDABA YETHU</string>
+    <string name="our_story_desc">Yasungulwa ngo-2019 e-Ga-Rankuwa Zone 2 ngaphambi kokuthuthela e-Zone 15 ngo-2022, i-Wright Cut yasungulwa ngu-Boikhutso Maswanganyi no-Kagiso Maluleka.</string>
+    <string name="find_gps_title">SITHUMLELE KU-GPS</string>
+    <string name="gps_address">📍 932 Monato Street, Ga-Rankuwa View, Zone 15, Gauteng</string>
+    <string name="btn_open_maps">Vula ku-Google Maps</string>
+
+    <string name="schedule_appointment_title">HLELA UKUBHUKHA</string>
+    <string name="tab_new_booking">Ukubhukha Okusha</string>
+    <string name="tab_my_appointments">Ukubhuka Kwami</string>
+    <string name="label_customer_email">I-imeyili Yekhasimende</string>
+    <string name="label_customer_mobile">Inombolo Yocingo Yekhasimende</string>
+    <string name="label_selected_service">Insizakalo Ekhethiwe</string>
+    <string name="label_select_date">Khetha Usuku</string>
+    <string name="label_time_slots">Izikhathi Ezitholakalayo</string>
+    <string name="btn_confirm_submit">Qinisekisa &amp; Thumela</string>
+    <string name="saved_appointments_title">UKUBHUKA OKULONDOLOZIWE (SQLITE)</string>
     <string name="reschedule">Hlehlisa Isikhathi</string>
     <string name="cancel">Khansela</string>
-    <string name="confirm_booking">Qinisekisa Ukubhuka</string>
-    <string name="logout">Phuma</string>
+
+    <string name="settings">Izilungiselelo</string>
     <string name="select_language">Khetha Ulimi</string>
+    <string name="logout">Phuma</string>
+
+    <!-- Footer -->
+    <string name="footer_copyright">© 2026 Wright Cut Barbershop. Wonke Amalungelo Agodliwe.</string>
 </resources>

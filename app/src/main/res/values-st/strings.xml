@@ -1,31 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Wright Cut Barbershop</string>
+    <string name="brand_header">WRIGHT CUT</string>
+
     <string name="welcome_back">Re a o amohela hape</string>
     <string name="login_subtitle">Kena ho kuta moriri wa hao</string>
     <string name="email">Imeile</string>
     <string name="password">Phasewete</string>
-    <string name="full_name">Lebitso ka botlalo</string>
-    <string name="phone">Nomoro ya mohala</string>
     <string name="login">Kena</string>
     <string name="register">Ingodise</string>
     <string name="create_account">Bopa Akhaonto</string>
+    <string name="full_name">Lebitso ka botlalo</string>
+    <string name="phone">Nomoro ya mohala</string>
     <string name="google_sso">Tswela pele ka Google (SSO)</string>
     <string name="dont_have_account">Ha o na akhaonto? Ingodise</string>
     <string name="already_have_account">O se o na le akhaonto? Kena</string>
-    <string name="ready_for_cut">O LOKETSE HO KUTA?</string>
-    <string name="book_now">BEHELA NAKO JWALE</string>
-    <string name="walk_in_wait">Nako ya ho Ema (REST API)</string>
-    <string name="loyalty_streak">Dintlha tsa boikemisetso</string>
-    <string name="popular_services">Ditshebeletso tse tummeng</string>
-    <string name="meet_barbers">Kopana le bakuti</string>
-    <string name="services_prices">Ditshebeletso le Ditheko</string>
-    <string name="style_gallery">Galari ya Mefuta</string>
-    <string name="my_bookings">Dipehelo tsa ka</string>
-    <string name="settings">Dipehelo</string>
+
+    <string name="menu_settings">Dipehelo / Puo (🌐)</string>
+    <string name="menu_sign_out">Tswa Akhaontong</string>
+
+    <string name="nav_home">Hae</string>
+    <string name="nav_services">Ditshebeletso &amp; Ditheko</string>
+    <string name="nav_gallery">Galari</string>
+    <string name="nav_book">Behela</string>
+    <string name="nav_about">Mabapi le Bakuti</string>
+    <string name="nav_admin">Tsamaiso</string>
+    <string name="nav_sign_out">Tswa</string>
+
+    <!-- Home Screen -->
+    <string name="refining_style">HO NTLAFATSA SEBOPEHO SA HAO</string>
+    <string name="style_quote">"Sebopeho sa hao se hlalosa wena. Rona re se ntlafatsa feela. Ha o shebahala hantle, re shebahala hantle."</string>
+    <string name="btn_book_session">Behela Nako ya ho Kuta</string>
+    <string name="location_hours_title">SEBAKA LE DINAKO TSA MOSEBETSI</string>
+    <string name="shop_address">📍 Aterese: 932 Monato Seterateng, Ga-Rankuwa View, Zone 15, 0208</string>
+    <string name="hours_mon_fri">🕒 Mantaha - Labohlano: 7:30 AM – 6:30 PM</string>
+    <string name="hours_sat">🕒 Moqebelo: 7:00 AM – 7:00 PM</string>
+    <string name="live_queue_wait">Nako ya ho Ema: ~15 min</string>
+
+    <string name="official_price_title">LETLAPHA LA DITHEKO TSA SEMMUSO</string>
+    <string name="official_price_subtitle">Ditheko tse netefaditsweng tsa ho kuta le ho taka.</string>
+    <string name="btn_proceed_book">Tswela Pele ho Behela</string>
+
+    <!-- Gallery Screen -->
+    <string name="our_work_title">Mosebetsi wa Rona</string>
+    <string name="btn_book_now">Behela Jwale</string>
+
+    <!-- About Screen -->
+    <string name="our_story_title">PALE YA RONA</string>
+    <string name="our_story_desc">E thehilwe ka 2019 Ga-Rankuwa Zone 2 pele e fallela Zone 15 ka 2022, Wright Cut e thehilwe ke Boikhutso Maswanganyi le Kagiso Maluleka.\n\nKa bobedi ke ditsebi tse rutilweng tsa mosebetsi wa matsoho.</string>
+    <string name="find_gps_title">FUMANA RONA HO GPS</string>
+    <string name="gps_address">📍 932 Monato Seterateng, Ga-Rankuwa View, Zone 15, Gauteng</string>
+    <string name="btn_open_maps">Bula ho Google Maps</string>
+
+    <string name="schedule_appointment_title">BEHELA NAKO YA KOPANO</string>
+    <string name="tab_new_booking">Pehelo e Ntjha</string>
+    <string name="tab_my_appointments">Dipehelo tsa ka</string>
+    <string name="label_customer_email">Imeile ya Moreki</string>
+    <string name="label_customer_mobile">Nomoro ya Mohala ya Moreki</string>
+    <string name="label_selected_service">Tshebeletso e Kgethilweng</string>
+    <string name="label_select_date">Kgetha Letsatsi</string>
+    <string name="label_time_slots">Dinako tse Fumanehang</string>
+    <string name="btn_confirm_submit">Netefatsa &amp; Romela</string>
+    <string name="saved_appointments_title">DIPEHELO TSE BOLOKILWENG (SQLITE)</string>
     <string name="reschedule">Fetola Nako</string>
     <string name="cancel">Hlakola</string>
-    <string name="confirm_booking">Netefatsa Pehelo</string>
-    <string name="logout">Tswa Akhaontong</string>
+
+
+    <string name="settings">Dipehelo</string>
     <string name="select_language">Kgetha Puo</string>
+    <string name="logout">Tswa Akhaontong</string>
+
+    <!-- Footer -->
+    <string name="footer_copyright">© 2026 Wright Cut Barbershop. Ditokelo Tsohle di Sireleditswe.</string>
 </resources>

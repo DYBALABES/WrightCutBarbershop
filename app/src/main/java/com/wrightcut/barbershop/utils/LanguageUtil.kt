@@ -1,5 +1,6 @@
 package com.wrightcut.barbershop.utils
 
+import android.app.Activity
 import android.content.Context
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -18,12 +19,17 @@ object LanguageUtil {
 
     fun showLanguageDialog(context: Context) {
         AlertDialog.Builder(context)
-            .setTitle("Select App Language / Khetha Ulimi")
+            .setTitle("Select Language / Khetha Ulimi")
             .setItems(languages) { _, index ->
                 val code = localeCodes[index]
                 val appLocale = LocaleListCompat.forLanguageTags(code)
                 AppCompatDelegate.setApplicationLocales(appLocale)
                 Toast.makeText(context, "Language set to ${languages[index]}", Toast.LENGTH_SHORT).show()
+
+                // Immediately refresh activity so all text changes instantly
+                if (context is Activity) {
+                    context.recreate()
+                }
             }
             .setNegativeButton("Cancel", null)
             .show()

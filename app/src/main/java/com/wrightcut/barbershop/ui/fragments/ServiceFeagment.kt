@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.google.firebase.auth.FirebaseAuth
@@ -30,12 +31,29 @@ class ServicesFragment : Fragment() {
 
         setupDynamicUserInitials()
 
-        binding.pillLanguage.setOnClickListener {
-            LanguageUtil.showLanguageDialog(requireContext())
+        binding.btnTopMenu.setOnClickListener {
+            val popup = PopupMenu(requireContext(), binding.btnTopMenu)
+            popup.menu.add(getString(R.string.menu_settings))
+            popup.menu.add(getString(R.string.menu_sign_out))
+
+            popup.setOnMenuItemClickListener { item ->
+                when (item.title) {
+                    getString(R.string.menu_settings) -> {
+                        LanguageUtil.showLanguageDialog(requireActivity())
+                        true
+                    }
+                    getString(R.string.menu_sign_out) -> {
+                        signOutUser()
+                        true
+                    }
+                    else -> false
+                }
+            }
+            popup.show()
         }
 
         binding.tvUserInitials.setOnClickListener {
-            LanguageUtil.showLanguageDialog(requireContext())
+            LanguageUtil.showLanguageDialog(requireActivity())
         }
 
         binding.btnProceedToBook.setOnClickListener {
@@ -65,11 +83,7 @@ class ServicesFragment : Fragment() {
         }
 
         binding.pillSignOut.setOnClickListener {
-            SessionManager.clearSession(requireContext())
-            try { FirebaseAuth.getInstance().signOut() } catch (e: Exception) {}
-            startActivity(Intent(requireContext(), LoginActivity::class.java).apply {
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-            })
+            signOutUser()
         }
 
         binding.btnWhatsApp.setOnClickListener {
@@ -82,6 +96,15 @@ class ServicesFragment : Fragment() {
         binding.btnFacebook.setOnClickListener { Toast.makeText(requireContext(), "Opening Facebook @wrightcut", Toast.LENGTH_SHORT).show() }
         binding.btnTikTok.setOnClickListener { Toast.makeText(requireContext(), "Opening TikTok @wrightcut", Toast.LENGTH_SHORT).show() }
         binding.btnTwitter.setOnClickListener { Toast.makeText(requireContext(), "Opening X @wrightcut", Toast.LENGTH_SHORT).show() }
+    }
+
+    private fun signOutUser() {
+        SessionManager.clearSession(requireContext())
+        try { FirebaseAuth.getInstance().signOut() } catch (e: Exception) {}
+        val intent = Intent(requireContext(), LoginActivity::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        }
+        startActivity(intent)
     }
 
     private fun setupDynamicUserInitials() {

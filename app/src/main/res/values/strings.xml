@@ -1,31 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Wright Cut Barbershop</string>
+    <string name="brand_header">WRIGHT CUT</string>
+
     <string name="welcome_back">Welcome back</string>
     <string name="login_subtitle">Log in to book your next cut</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="full_name">Full Name</string>
-    <string name="phone">Phone Number</string>
     <string name="login">Log In</string>
     <string name="register">Register</string>
     <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone Number</string>
     <string name="google_sso">Continue with Google (SSO)</string>
     <string name="dont_have_account">Don\'t have an account? Register</string>
     <string name="already_have_account">Already have an account? Log In</string>
-    <string name="ready_for_cut">READY FOR A FRESH CUT?</string>
-    <string name="book_now">BOOK NOW</string>
-    <string name="walk_in_wait">Live Wait Time (REST API)</string>
-    <string name="loyalty_streak">Loyalty streak</string>
-    <string name="popular_services">Popular services</string>
-    <string name="meet_barbers">Meet the barbers</string>
-    <string name="services_prices">Services &amp; Prices</string>
-    <string name="style_gallery">Style Gallery</string>
-    <string name="my_bookings">My Bookings</string>
-    <string name="settings">Settings</string>
+
+    <string name="menu_settings">Settings / Language (🌐)</string>
+    <string name="menu_sign_out">Sign Out</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_services">Services &amp; Prices</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_book">Book</string>
+    <string name="nav_about">About Barbers</string>
+    <string name="nav_admin">Admin Panel</string>
+    <string name="nav_sign_out">Sign Out</string>
+
+    <!-- Home Screen -->
+    <string name="refining_style">REFINING YOUR STYLE</string>
+    <string name="style_quote">"Your style defines you. We just refine it. If you look good, we look good."</string>
+    <string name="btn_book_session">Book Your Barber Session</string>
+    <string name="location_hours_title">LOCATION &amp; WORKING HOURS</string>
+    <string name="shop_address">📍 Address: 932 Monato Street, Ga-Rankuwa View, Zone 15, 0208</string>
+    <string name="hours_mon_fri">🕒 Mon - Fri: 7:30 AM – 6:30 PM</string>
+    <string name="hours_sat">🕒 Saturday: 7:00 AM – 7:00 PM</string>
+    <string name="live_queue_wait">Live Queue Wait: ~15 min</string>
+
+    <!-- Services Screen -->
+    <string name="official_price_title">OFFICIAL PRICE LIST</string>
+    <string name="official_price_subtitle">Verified shop rates for haircuts, dyes, and trims.</string>
+    <string name="btn_proceed_book">Proceed to Book</string>
+
+    <!-- Gallery Screen -->
+    <string name="our_work_title">Our Work</string>
+    <string name="btn_book_now">Book Now</string>
+
+    <!-- About Screen -->
+    <string name="our_story_title">OUR STORY</string>
+    <string name="our_story_desc">Established in 2019 in Ga-Rankuwa Zone 2 before relocating to Zone 15 in 2022, Wright Cut Barbershop was founded by Boikhutso Maswanganyi and Kagiso Maluleka.\n\nBoth barbers are self-taught craftsmen who refined their expertise by studying master barbers across Africa, including experience working at Legends Barber before launching Wright Cut.</string>
+    <string name="find_gps_title">FIND US ON GPS</string>
+    <string name="gps_address">📍 932 Monato Street, Ga-Rankuwa View, Zone 15, 0208, Gauteng</string>
+    <string name="btn_open_maps">Open in Google Maps Navigation</string>
+
+    <!-- Appointment & Bookings -->
+    <string name="schedule_appointment_title">SCHEDULE APPOINTMENT</string>
+    <string name="tab_new_booking">New Booking</string>
+    <string name="tab_my_appointments">My Appointments</string>
+    <string name="label_customer_email">Customer Email Address</string>
+    <string name="label_customer_mobile">Customer Mobile Number (For SMS Confirmation)</string>
+    <string name="label_selected_service">Selected Service</string>
+    <string name="label_select_date">Select Date</string>
+    <string name="label_time_slots">Time Slots</string>
+    <string name="btn_confirm_submit">Confirm &amp; Submit</string>
+    <string name="saved_appointments_title">SAVED APPOINTMENTS (SQLITE DATABASE)</string>
     <string name="reschedule">Reschedule</string>
     <string name="cancel">Cancel</string>
-    <string name="confirm_booking">Confirm Booking</string>
-    <string name="logout">Log Out</string>
+
+    <string name="settings">Settings</string>
     <string name="select_language">Select Language</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Footer -->
+    <string name="footer_copyright">© 2026 Wright Cut Barbershop. All Rights Reserved.</string>
 </resources>

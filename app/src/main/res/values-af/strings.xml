@@ -1,31 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Wright Cut Barbershop</string>
+    <string name="brand_header">WRIGHT CUT</string>
+
     <string name="welcome_back">Welkom terug</string>
     <string name="login_subtitle">Teken in om jou volgende haarsny te bespreek</string>
     <string name="email">E-pos</string>
     <string name="password">Wagwoord</string>
-    <string name="full_name">Volle Naam</string>
-    <string name="phone">Telefoonnommer</string>
     <string name="login">Teken In</string>
     <string name="register">Registreer</string>
     <string name="create_account">Skep Rekening</string>
+    <string name="full_name">Volle Naam</string>
+    <string name="phone">Telefoonnommer</string>
     <string name="google_sso">Gaan voort met Google (SSO)</string>
     <string name="dont_have_account">Het jy nie \'n rekening nie? Registreer</string>
     <string name="already_have_account">Het reeds \'n rekening? Teken In</string>
-    <string name="ready_for_cut">REG VIR \'N VARS HAARSNY?</string>
-    <string name="book_now">BESPREEK NOU</string>
-    <string name="walk_in_wait">Regstreekse Wagtyd (REST API)</string>
-    <string name="loyalty_streak">Lojaliteitsreeks</string>
-    <string name="popular_services">Gewilde dienste</string>
-    <string name="meet_barbers">Ontmoet die haarkappers</string>
-    <string name="services_prices">Dienste &amp; Pryse</string>
-    <string name="style_gallery">Stylgalery</string>
-    <string name="my_bookings">My Besprekings</string>
-    <string name="settings">Instellings</string>
+
+    <string name="menu_settings">Instellings / Taal (🌐)</string>
+    <string name="menu_sign_out">Teken Uit</string>
+
+    <string name="nav_home">Tuis</string>
+    <string name="nav_services">Dienste &amp; Pryse</string>
+    <string name="nav_gallery">Galery</string>
+    <string name="nav_book">Bespreek</string>
+    <string name="nav_about">Oor Haarkappers</string>
+    <string name="nav_admin">Adminpaneel</string>
+    <string name="nav_sign_out">Teken Uit</string>
+
+    <!-- Home Screen -->
+    <string name="refining_style">VERFYNING VAN JOU STYL</string>
+    <string name="style_quote">"Jou styl definieer jou. Ons verfyn dit net. As jy goed lyk, lyk ons goed."</string>
+    <string name="btn_book_session">Bespreek Jou Haarsnysessie</string>
+    <string name="location_hours_title">LIGGING &amp; WERKURE</string>
+    <string name="shop_address">📍 Adres: 932 Monato Straat, Ga-Rankuwa View, Sone 15, 0208</string>
+    <string name="hours_mon_fri">🕒 Ma - Vr: 7:30 vm – 6:30 nm</string>
+    <string name="hours_sat">🕒 Saterdag: 7:00 vm – 7:00 nm</string>
+    <string name="live_queue_wait">Regstreekse Wagtyd: ~15 min</string>
+
+    <!-- Services Screen -->
+    <string name="official_price_title">AMPTELIKE PRYSLYS</string>
+    <string name="official_price_subtitle">Geverifieerde pryse vir haarsny, kleurstof en afwerkings.</string>
+    <string name="btn_proceed_book">Gaan voort om te bespreek</string>
+
+    <!-- Gallery Screen -->
+    <string name="our_work_title">Ons Werk</string>
+    <string name="btn_book_now">Bespreek Nou</string>
+
+    <!-- About Screen -->
+    <string name="our_story_title">ONS VERHAAL</string>
+    <string name="our_story_desc">Gestig in 2019 in Ga-Rankuwa Sone 2 voor verhuising na Sone 15 in 2022, is Wright Cut gestig deur Boikhutso Maswanganyi en Kagiso Maluleka.\n\nAlbei is selfopgeleide vakmanne wat hul vaardighede regoor Afrika geslyp het.</string>
+    <string name="find_gps_title">VIND ONS OP GPS</string>
+    <string name="gps_address">📍 932 Monato Straat, Ga-Rankuwa View, Sone 15, Gauteng</string>
+    <string name="btn_open_maps">Maak oop in Google Maps-navigasie</string>
+
+    <string name="schedule_appointment_title">REËL AFSPRAAK</string>
+    <string name="tab_new_booking">Nuwe Bespreking</string>
+    <string name="tab_my_appointments">My Afsprake</string>
+    <string name="label_customer_email">Kliënt E-posadres</string>
+    <string name="label_customer_mobile">Kliënt Selfoonnommer (Vir SMS-bevestiging)</string>
+    <string name="label_selected_service">Gekose Diens</string>
+    <string name="label_select_date">Kies Datum</string>
+    <string name="label_time_slots">Tydgleuwe</string>
+    <string name="btn_confirm_submit">Bevestig &amp; Dien in</string>
+    <string name="saved_appointments_title">GELAAIDE AFSPRAKE (SQLITE DATABASIS)</string>
     <string name="reschedule">Herskik</string>
     <string name="cancel">Kanselleer</string>
-    <string name="confirm_booking">Bevestig Bespreking</string>
-    <string name="logout">Teken Uit</string>
+
+    <string name="settings">Instellings</string>
     <string name="select_language">Kies Taal</string>
+    <string name="logout">Teken Uit</string>
+
+    <!-- Footer -->
+    <string name="footer_copyright">© 2026 Wright Cut Barbershop. Alle Regte Voorbehou.</string>
 </resources>
