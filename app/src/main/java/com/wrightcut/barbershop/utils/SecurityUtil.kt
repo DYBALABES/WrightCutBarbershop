@@ -3,11 +3,11 @@ package com.wrightcut.barbershop.utils
 import java.security.MessageDigest
 
 object SecurityUtil {
-    private const val SALT = "WrightCutSalt2026Secure"
+    private const val SALT = "WrightCutSecureSalt2026"
+    private val EMAIL_REGEX = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\$".toRegex()
 
     /**
      * Salts and hashes user passwords using SHA-256 for secure storage.
-     * Guarantees that passwords are never stored or transmitted in plain text.
      */
     fun hashPassword(password: String): String {
         val inputWithSalt = password + SALT
@@ -16,14 +16,14 @@ object SecurityUtil {
     }
 
     /**
-     * Validates that the input matches standard email format.
+     * Validates that the input matches an email pattern.
      */
     fun isValidEmail(email: String): Boolean {
-        return android.util.Patterns.EMAIL_ADDRESS.matcher(email.trim()).matches()
+        return email.trim().matches(EMAIL_REGEX)
     }
 
     /**
-     * Validates that the password is at least 6 characters long.
+     * Validates that password meets minimum length requirement (>= 6 characters).
      */
     fun isValidPassword(password: String): Boolean {
         return password.trim().length >= 6
